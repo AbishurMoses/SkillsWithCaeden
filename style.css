@@ -18,6 +18,7 @@ a {
 }
 
 /* || SITEWIDE*/
+/* || NAVBAR */
 nav {
   display: flex;
   flex-direction: row;
@@ -46,4 +47,14 @@ nav {
 
 #nav-links {
     gap: 2rem;
+}
+
+#nav-links > a {
+    font-size: 1rem;
+    transition: font-size 0.3s ease; /* Add a smooth transition effect */
+}
+
+#nav-links > a:hover {
+    font-size: 1.5rem;
+    cursor: crosshair;
 }
