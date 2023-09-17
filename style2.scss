@@ -1,4 +1,7 @@
+$normal-color: blue
 /* || General Styles */
+
+
 body, main {
     padding: 0px;
     margin: 0px;
@@ -8,7 +11,7 @@ a {
     text-decoration: none;
 }
 
-/* || Containers */
+/* || Container */
 #container{
     display: flex;
     flex-direction: row;
