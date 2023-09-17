@@ -25,7 +25,7 @@
     </nav>
     <section class="forms">
         <div class="practice">
-            <form id="practice-form">
+            <form id="practice_form">
                 <h1>Practice</h1>
                 <label>First Name:</label>
                 <input tabindex="1" type="text" placeholder="Please Enter Your Name">
@@ -40,9 +40,16 @@
             <h1>Sign In</h1>
             <input type="text" placeholder="Please Enter Your Name">
         </div>
-        <div class="logIn">
-            <h1>Login</h1>
-            <input type="text" placeholder="Please Enter Your Name">
+        <div class="login">
+            <form id="login_form">
+                <h1>Login</h1>
+                <input id="login_form_username" type="text" placeholder="Username" required>
+                <input id="login_form_password" type="text" placeholder="Password" required>
+                <input id="login_form_rememberMe" type="checkbox" name="rememberMe" value="1" required>
+                <label for="rememberMe">Remember Me</label>
+                <a href="">Forgot?</a>
+                <button form="login_form">Login</button>
+            </form>
         </div>
         <div class="sumbitComment">
             <h1>Submit</h1>
@@ -67,6 +74,11 @@
                     <td>124</td>
                 </tr>
             </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Copyright &copy; 2023</td>
+                </tr>
+            </tfoot>
         </table>
     </section>
 </body>
